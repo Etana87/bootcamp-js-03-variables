@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Módulo 3: Variables</title>
   </head>
   <body>
     <div id="app">
-      <h1>TypeScript Sandbox</h1>
+      
+      <h1>Grupos musicales</h1>
+      
+      <p>Queremos mostrar información acerca de grupos musicales.</p>
+      <p>Si estás trabajando con TypeScript habría que crear un interfaz para representar a un grupo musical.</p>
+      <p>La información de los grupos que queremos mostrar:</p>
+      <ul>
+        <li>Nombre del grupo / cantante / compositor (string).</li>
+        <li>Año de fundación: cuando se formó el grupo (numero).</li>
+        <li>Si está en activo (booleano).</li>
+        <li>Género musical (string).</li>
+        <li>Cada género queremos tenerlo en una variable.</li>
+      </ul>
+      <p>Los grupos que vamos a mostrar:</p>
+      <ul>
+        <li>The Beatles / 1960 / Activo: true / 🎵 Pop Rock</li>
+        <li>Queen / 1970 / Activo: false / 🎸 Rock</li>
+        <li>AC DC / 1973 / Activo: true / 🤘 Hard Rock</li>
+        <li>Ludwig van Beethoven / 1770 / Activo: false / 🎼 Clásica</li>
+        <li>The Rolling Stones / 1962 / Activo: true / 🎸 Rock</li>
+      </ul>
+      <p>Queremos mostrar cada grupo por consola, el nombre del grupo de música queremos ponerlo en negrita, con fuente más grande y color de fondo verde.</p>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

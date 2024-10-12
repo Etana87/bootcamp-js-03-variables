@@ -1,3 +1,6 @@
 import "./style.css";
 
-console.log("Hello Typescript!");
+/*ESTILOS*/
+const estiloVar = "font-weigth: bold; font-size: 16px; color: green;"
+
+console.log("%cHola", estiloVar);
